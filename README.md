@@ -8,18 +8,17 @@ This Frappe application allows you to use Nepali Date on the Frappe Framework.
 
 To install the Nepali Date application, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Navigate to the `frappe-bench` directory:
+
+    ```shell
+    cd frappe-bench
+    ```
+2. Clone the repository to your local machine:
 
     ```shell
     git clone https://github.com/frappe/nepalidate.git
     ```
-
-2. Navigate to the `nepalidate` directory:
-
-    ```shell
-    cd nepalidate
-    ```
-
+    
 3. Install the application dependencies:
 
     ```shell
