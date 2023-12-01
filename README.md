@@ -66,6 +66,9 @@ The following features are planned for future releases:
 2. Nepali to English Conversion
 3. English to Nepali Conversion
 
+## Screenshot
+![image](https://github.com/rbnkoirala/nepalidate/assets/64308806/d4712c1d-6bec-4462-9e0e-7a43b13a5f7d)
+
 ## License
 
 This application is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
