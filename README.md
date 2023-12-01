@@ -16,7 +16,7 @@ To install the Nepali Date application, follow these steps:
 2. Clone the repository to your local machine:
 
     ```shell
-    git clone https://github.com/frappe/nepalidate.git
+    git get-app https://github.com/frappe/nepalidate.git
     ```
     
 3. Install the application dependencies:
@@ -46,8 +46,15 @@ To install the Nepali Date application, follow these steps:
 ## Usage
 
 Check on Client Side Script Code
-
-https://github.com/rbnkoirala/nepalidate/blob/main/nepalidate/nepali_date/doctype/nepali_date_demo/nepali_date_demo.js
+```shell
+frappe.ui.form.on("Nepali Date Demo", {
+    refresh(frm) {
+        add_nepali_date_picker(frm, "nepali_date");   
+        add_nepali_date_picker(frm, "nepali_date_convert");  
+         
+    },
+});
+```
 
 ## Roadmap for Future
 
