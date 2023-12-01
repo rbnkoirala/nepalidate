@@ -58,6 +58,14 @@ To use the Nepali Date features, follow these steps:
 
 5. The Date Picker will now display dates in the Nepali format.
 
+## Roadmap for Future
+
+The following features are planned for future releases:
+
+1. Nepali Date Field Validation
+2. Nepali to English Conversion
+3. English to Nepali Conversion
+
 ## License
 
 This application is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
