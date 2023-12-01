@@ -45,17 +45,9 @@ To install the Nepali Date application, follow these steps:
 
 ## Usage
 
-To use the Nepali Date features, follow these steps:
+Check on Client Side Script Code
 
-1. Open a form or a page where you want to add a Date Picker.
-
-2. Add a new field of type "Date" to the form or page.
-
-3. In the field options, set the "Date Format" to "Nepali".
-
-4. Save the form or page.
-
-5. The Date Picker will now display dates in the Nepali format.
+https://github.com/rbnkoirala/nepalidate/blob/main/nepalidate/nepali_date/doctype/nepali_date_demo/nepali_date_demo.js
 
 ## Roadmap for Future
 
