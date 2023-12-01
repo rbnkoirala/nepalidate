@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-01 13:30:54.562728",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nepali_date_demo_section",
+  "nepali_date",
+  "column_break_ptze",
+  "nepali_to_english_date_conversion_section",
+  "nepali_date_convert",
+  "column_break_jzhc",
+  "english_date_convert",
+  "english_datetime_convert",
+  "english_to_nepali_date_conversion_section",
+  "english_date_convert_one",
+  "english_datetime_convert_one",
+  "column_break_zftw",
+  "nepali_date_convert_one"
+ ],
+ "fields": [
+  {
+   "fieldname": "nepali_date_demo_section",
+   "fieldtype": "Section Break",
+   "label": "Nepali Date Demo"
+  },
+  {
+   "fieldname": "nepali_date",
+   "fieldtype": "Data",
+   "label": "Nepali Date"
+  },
+  {
+   "fieldname": "column_break_ptze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nepali_to_english_date_conversion_section",
+   "fieldtype": "Section Break",
+   "label": "Nepali to English Date Conversion"
+  },
+  {
+   "fieldname": "nepali_date_convert",
+   "fieldtype": "Data",
+   "label": "Nepali Date Convert"
+  },
+  {
+   "fieldname": "column_break_jzhc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "english_date_convert",
+   "fieldtype": "Date",
+   "label": "English Date Convert"
+  },
+  {
+   "fieldname": "english_datetime_convert",
+   "fieldtype": "Datetime",
+   "label": "English Datetime Convert"
+  },
+  {
+   "fieldname": "english_to_nepali_date_conversion_section",
+   "fieldtype": "Section Break",
+   "label": "English to Nepali Date Conversion"
+  },
+  {
+   "fieldname": "english_date_convert_one",
+   "fieldtype": "Date",
+   "label": "English Date Convert One"
+  },
+  {
+   "fieldname": "english_datetime_convert_one",
+   "fieldtype": "Datetime",
+   "label": "English Datetime Convert One"
+  },
+  {
+   "fieldname": "column_break_zftw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nepali_date_convert_one",
+   "fieldtype": "Data",
+   "label": "Nepali Date Convert One"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-12-01 13:38:27.346705",
+ "modified_by": "Administrator",
+ "module": "Nepali Date",
+ "name": "Nepali Date Demo",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

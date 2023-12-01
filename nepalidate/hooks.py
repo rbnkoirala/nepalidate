@@ -13,6 +13,12 @@ app_license = "mit"
 # app_include_css = "/assets/nepalidate/css/nepalidate.css"
 # app_include_js = "/assets/nepalidate/js/nepalidate.js"
 
+app_include_css = "/assets/nepalidate/css/nepali.datepicker.css"
+app_include_js = [
+    "/assets/nepalidate/js/nepali.datepicker.js",
+    "/assets/nepalidate/js/nepali.datepicker.custom.js"
+]
+
 # include js, css files in header of web template
 # web_include_css = "/assets/nepalidate/css/nepalidate.css"
 # web_include_js = "/assets/nepalidate/js/nepalidate.js"
