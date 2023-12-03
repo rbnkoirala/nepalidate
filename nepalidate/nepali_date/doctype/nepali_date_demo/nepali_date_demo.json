@@ -10,6 +10,7 @@
   "column_break_ptze",
   "nepali_to_english_date_conversion_section",
   "nepali_date_convert",
+  "nepali_date_time_convert",
   "column_break_jzhc",
   "english_date_convert",
   "english_datetime_convert",
@@ -81,12 +82,17 @@
    "fieldname": "nepali_date_convert_one",
    "fieldtype": "Data",
    "label": "Nepali Date Convert One"
+  },
+  {
+   "fieldname": "nepali_date_time_convert",
+   "fieldtype": "Data",
+   "label": "Nepali Date Time Convert"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-12-01 13:38:27.346705",
+ "modified": "2023-12-03 11:48:17.300222",
  "modified_by": "Administrator",
  "module": "Nepali Date",
  "name": "Nepali Date Demo",
