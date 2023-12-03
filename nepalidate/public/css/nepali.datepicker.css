@@ -101,6 +101,7 @@ div#ndp-nepali-box td.ndp-date a,div#ndp-nepali-box td.ndp-selected a,div.ndp-ne
     text-align: center;
     font-weight: 500;
     padding: 5px;
+    font-size: 1.2em;
 }
 
 div#ndp-nepali-box td.ndp-selected a, div.ndp-nepali-box td.ndp-selected a {
