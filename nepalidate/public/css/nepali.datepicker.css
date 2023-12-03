@@ -33,7 +33,7 @@ div#ndp-nepali-box {
 }
 
 div#ndp-nepali-box,div.ndp-nepali-box {
-    width: 280px;
+    width: 260px;
     font-family: "Trebuchet MS",Tahoma,Verdana,Arial,sans-serif;
     border: 1px solid #ededed;
     background-color: #fdfefe;
@@ -185,11 +185,12 @@ div#ndp-nepali-box a,div.ndp-nepali-box a {
 }
 
 #currentMonth #ndp-month-select,#currentMonth #ndp-year-select {
-    color: #000;
+	color: #000;
     font-size: 14px;
     font-weight: 400;
     padding: 4px 9px 0;
     height: 30px;
+    margin-right: 5px;
 }
 
 .ndp-corner-all,.ndp-corner-left,.ndp-corner-tl,.ndp-corner-top {
