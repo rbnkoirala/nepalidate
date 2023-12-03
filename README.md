@@ -49,10 +49,27 @@ Check on Client Side Script Code
 ```shell
 frappe.ui.form.on("Nepali Date Demo", {
     refresh(frm) {
-        add_nepali_date_picker(frm, "nepali_date");   
-        add_nepali_date_picker(frm, "nepali_date_convert");  
-         
+        add_nepali_date_picker(frm, "nepali_date");   // if you dont want to add nepali date only
+        add_nepali_date_picker(frm, "nepali_date_convert", "english_date_convert");   //  if you want to add nepali date and convert to english date      
+        add_nepali_date_picker(frm, "nepali_date_time_convert", "english_datetime_convert");  // convert in time field
+
+        add_nepali_date_picker(frm, "nepali_date_convert_one", "english_date_convert_one"); 
+       
+        
+        
     },
+    english_date_convert(frm) {
+        convert_ADBS(frm, "english_date_convert", "nepali_date_convert");  
+    },
+    english_datetime_convert(frm) {
+        convert_ADBS(frm, "english_datetime_convert", "nepali_date_time_convert");  
+    },    
+    english_date_convert_one(frm) {
+        convert_ADBS(frm, "english_date_convert_one", "nepali_date_convert_one");  
+    },
+    english_datetime_convert_one(frm) {
+        convert_ADBS(frm, "english_datetime_convert_one", "nepali_date_convert_one");  
+    }
 });
 ```
 
@@ -60,9 +77,7 @@ frappe.ui.form.on("Nepali Date Demo", {
 
 The following features are planned for future releases:
 
-1. Nepali Date Field Validation
-2. Nepali to English Conversion
-3. English to Nepali Conversion
+1. UI/UX Change
 
 ## Screenshot
 ![image](https://github.com/rbnkoirala/nepalidate/assets/64308806/d4712c1d-6bec-4462-9e0e-7a43b13a5f7d)
