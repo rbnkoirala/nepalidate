@@ -8,18 +8,17 @@ This Frappe application allows you to use Nepali Date on the Frappe Framework.
 
 To install the Nepali Date application, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Navigate to the `frappe-bench` directory:
 
     ```shell
-    git clone https://github.com/frappe/nepalidate.git
+    cd frappe-bench
     ```
-
-2. Navigate to the `nepalidate` directory:
+2. Clone the repository to your local machine:
 
     ```shell
-    cd nepalidate
+    git get-app https://github.com/frappe/nepalidate.git
     ```
-
+    
 3. Install the application dependencies:
 
     ```shell
@@ -46,17 +45,16 @@ To install the Nepali Date application, follow these steps:
 
 ## Usage
 
-To use the Nepali Date features, follow these steps:
-
-1. Open a form or a page where you want to add a Date Picker.
-
-2. Add a new field of type "Date" to the form or page.
-
-3. In the field options, set the "Date Format" to "Nepali".
-
-4. Save the form or page.
-
-5. The Date Picker will now display dates in the Nepali format.
+Check on Client Side Script Code
+```shell
+frappe.ui.form.on("Nepali Date Demo", {
+    refresh(frm) {
+        add_nepali_date_picker(frm, "nepali_date");   
+        add_nepali_date_picker(frm, "nepali_date_convert");  
+         
+    },
+});
+```
 
 ## Roadmap for Future
 
@@ -65,6 +63,9 @@ The following features are planned for future releases:
 1. Nepali Date Field Validation
 2. Nepali to English Conversion
 3. English to Nepali Conversion
+
+## Screenshot
+![image](https://github.com/rbnkoirala/nepalidate/assets/64308806/d4712c1d-6bec-4462-9e0e-7a43b13a5f7d)
 
 ## License
 
