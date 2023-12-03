@@ -80,7 +80,8 @@ The following features are planned for future releases:
 1. UI/UX Change
 
 ## Screenshot
-![image](https://github.com/rbnkoirala/nepalidate/assets/64308806/d4712c1d-6bec-4462-9e0e-7a43b13a5f7d)
+![image](https://github.com/rbnkoirala/nepalidate/assets/64308806/88dcc253-f445-4626-bdae-c233af68e481)
+
 
 ## License
 
