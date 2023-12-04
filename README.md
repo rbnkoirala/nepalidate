@@ -16,7 +16,7 @@ To install the Nepali Date application, follow these steps:
 2. Clone the repository to your local machine:
 
     ```shell
-    git get-app https://github.com/rbnkoirala/nepalidate.git
+    git get-app https://github.com/frappe/nepalidate.git
     ```
     
 3. Install the application dependencies:
