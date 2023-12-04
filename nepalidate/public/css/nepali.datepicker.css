@@ -97,11 +97,11 @@ div#ndp-nepali-box td.ndp-date a,div#ndp-nepali-box td.ndp-selected a,div.ndp-ne
     display: block;
     color: #171717 !important;
     text-decoration: none;
-    width: 20px;
-    text-align: center;
+    width: 30px;
     font-weight: 500;
-    padding: 5px;
+    padding: 4px;
     font-size: 1.2em;
+    text-align: center;
 }
 
 div#ndp-nepali-box td.ndp-selected a, div.ndp-nepali-box td.ndp-selected a {
