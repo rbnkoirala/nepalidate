@@ -35,13 +35,7 @@ To install the Nepali Date application, follow these steps:
 
 6. Log in to the Frappe application using your credentials.
 
-7. Go to the "Desk" and click on the "Setup" module.
-
-8. In the "Installed Applications" section, click on "Nepali Date".
-
-9. Enable the "Nepali Date" application.
-
-10. You can now use the Nepali Date features in your Frappe application.
+7. To Test the search "Nepali Date Demo" doctype and try.
 
 ## Usage
 
