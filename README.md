@@ -29,16 +29,20 @@ To install the Nepali Date application, follow these steps:
     ```
 
 4. Run the Frappe development server:
-
+    For Development Server
     ```shell
     bench start
     ```
+    For Production Server
+   ```shell
+   sudo supervisorctl restart all
+   ```
 
-5. Open your web browser and visit `http://localhost:8000`.
+6. Open your web browser and visit `http://localhost:8000`.
 
-6. Log in to the Frappe application using your credentials.
+7. Log in to the Frappe application using your credentials.
 
-7. To Test the search "Nepali Date Demo" doctype and try.
+8. To Test the search "Nepali Date Demo" doctype and try.
 
 ## Usage
 
