@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-04 21:03:59.850629",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "nepali_date_child",
+  "english_date_child"
+ ],
+ "fields": [
+  {
+   "fieldname": "nepali_date_child",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nepali Date Child"
+  },
+  {
+   "fieldname": "english_date_child",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "English Date Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-04 21:05:42.035745",
+ "modified_by": "Administrator",
+ "module": "Nepali Date",
+ "name": "Nepali Date Demo Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

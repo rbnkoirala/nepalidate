@@ -22,7 +22,7 @@ function add_nepali_date_picker(frmField, nepali_date_field , english_date_conve
         $(frmField.fields_dict[nepali_date_field].input).on("change", function() {
             var nepali_date = $(this).val();
             frappe.model.set_value(frmField.doctype, frmField.docname, nepali_date_field, nepali_date);
-            console.log('hello');
+        
             if (/^[0-9-]+$/.test(nepali_date) && nepali_date.length == 10) {
                 var date = nepali_date.split("-");
                 var year = date[0];
@@ -45,7 +45,7 @@ function add_nepali_date_picker(frmField, nepali_date_field , english_date_conve
     
 }
 
-
+// This function is not used it was just for testing purpose
 function convert_ADBS(frmField, english_date_field, nepali_date_field) {
     
     if (frmField.fields_dict[english_date_field].df.fieldtype == "Datetime" || frmField.fields_dict[english_date_field].df.fieldtype == "Date") {
@@ -68,5 +68,8 @@ function convert_ADBS(frmField, english_date_field, nepali_date_field) {
         frappe.model.set_value(frmField.doctype, frmField.docname, nepali_date_field, "");
     }
 }
+
+
+
      
 
