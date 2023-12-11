@@ -74,7 +74,7 @@ frappe.ui.form.on("Nepali Date Demo", {
 
 The following features are planned for future releases:
 
-1. Calender POPUP on Child Table
+1. Calender POPUP on Child Table [#child table code](https://github.com/rbnkoirala/nepalidate/wiki/Convert-Nepali-Date-Inside-Table-(Child-Doctype))
 
 ## Screenshot
 ![image](https://github.com/rbnkoirala/nepalidate/assets/64308806/88dcc253-f445-4626-bdae-c233af68e481)
