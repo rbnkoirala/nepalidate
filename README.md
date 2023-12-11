@@ -42,7 +42,7 @@ To install the Nepali Date application, follow these steps:
 
 ## Usage
 
-Check on Client Side Script Code
+Check on Client Side Script [Latest Code](https://github.com/rbnkoirala/nepalidate/blob/main/nepalidate/nepali_date/doctype/nepali_date_demo/nepali_date_demo.js)
 ```shell
 frappe.ui.form.on("Nepali Date Demo", {
     refresh(frm) {
