@@ -2,7 +2,10 @@
 
 mit# Nepali Date
 
-This Frappe application allows you to use Nepali Date on the Frappe Framework.
+This Frappe application allows you to use Nepali Date on the Frappe Framework. 
+[Detail Documentation on Wiki](https://github.com/rbnkoirala/nepalidate/wiki/)
+
+
 
 ## Installation
 
@@ -16,7 +19,7 @@ To install the Nepali Date application, follow these steps:
 2. Clone the repository to your local machine:
 
     ```shell
-    git get-app https://github.com/rbnkoirala/nepalidate.git
+    bench get-app https://github.com/rbnkoirala/nepalidate.git
     ```
     
 3. Install the application dependencies:
@@ -26,20 +29,24 @@ To install the Nepali Date application, follow these steps:
     ```
 
 4. Run the Frappe development server:
-
+    For Development Server
     ```shell
     bench start
     ```
+    For Production Server
+   ```shell
+   sudo supervisorctl restart all
+   ```
 
-5. Open your web browser and visit `http://localhost:8000`.
+6. Open your web browser and visit `http://localhost:8000`.
 
-6. Log in to the Frappe application using your credentials.
+7. Log in to the Frappe application using your credentials.
 
-7. To Test the search "Nepali Date Demo" doctype and try.
+8. To Test the search "Nepali Date Demo" doctype and try.
 
 ## Usage
 
-Check on Client Side Script Code
+Check on Client Side Script [Latest Code](https://github.com/rbnkoirala/nepalidate/blob/main/nepalidate/nepali_date/doctype/nepali_date_demo/nepali_date_demo.js)
 ```shell
 frappe.ui.form.on("Nepali Date Demo", {
     refresh(frm) {
@@ -71,7 +78,7 @@ frappe.ui.form.on("Nepali Date Demo", {
 
 The following features are planned for future releases:
 
-1. UI/UX Change
+1. Calender POPUP on Child Table [#child table code](https://github.com/rbnkoirala/nepalidate/wiki/Convert-Nepali-Date-Inside-Table-(Child-Doctype))
 
 ## Screenshot
 ![image](https://github.com/rbnkoirala/nepalidate/assets/64308806/88dcc253-f445-4626-bdae-c233af68e481)
