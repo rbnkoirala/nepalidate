@@ -25,7 +25,7 @@ To install the Nepali Date application, follow these steps:
 3. Install the application dependencies:
 
     ```shell
-    bench install-app nepalidate
+    bench --site sitename install-app nepalidate
     ```
 
 4. Run the Frappe development server:
