@@ -2,7 +2,7 @@ app_name = "nepalidate"
 app_title = "Nepali Date"
 app_publisher = "Rabin Koirala"
 app_description = "Using Nepali Date on Frappe Framework"
-app_email = "businesswithrabin@gmail.com"
+app_email = "codewithrabin@gmail.com"
 app_license = "mit"
 # required_apps = []
 
